@@ -1,4 +1,4 @@
-# Predicting Number of EV Charging Stations in Singapore
+# EV Charging Infrastructure in Singapore
 
 ## Background
 
@@ -14,13 +14,13 @@
 ### Data Dictionary
 |Attribute|Variable Type |Dataset|Description|
 |---|---|---|---|
-|**Id**|*Discrete*|Ames Housing|Unique ID for each property|
-|**PID**|*Nominal*|Ames Housing|Parcel identification number - can be used with city web site for parcel review|
-|**MS SubClass**|*Nominal*|Ames Housing|Identifies the type of dwelling involved in the sale|
-|**MS Zoning**|*Nominal*|Ames Housing|Identifies the general zoning classification of the sale|
-|**Lot Frontage**|*Continuous*|Ames Housing|Linear feet of street connected to property|
-|**Lot Area**|*Continuous*|Ames Housing|Lot size in square feet|
-|**Street**|*Nominal*|Ames Housing|Type of road access to property|
+|**Address**|*Discrete*|HDB_parking_cleaned_planningarea|Address for each HDB car park|
+|**X_coord**|*Nominal*|HDB_parking_cleaned_planningarea|Parcel identification number - can be used with city web site for parcel review|
+|**Y_coord**|*Nominal*|HDB_parking_cleaned_planningarea|Identifies the type of dwelling involved in the sale|
+|**Car_Park_Type**|*Nominal*|HDB_parking_cleaned_planningarea|Identifies the general zoning classification of the sale|
+|**Type_of_Parking_System**|*Nominal*|HDB_parking_cleaned_planningarea|Linear feet of street connected to property|
+|**Short_Term_Parking**|*Continuous*|Ames Housing|Lot size in square feet|
+|**Free_Parking**|*Nominal*|Ames Housing|Type of road access to property|
 |**Alley**|*Nominal*|Ames Housing|Type of alley access to property|
 |**Lot Shape**|*Ordinal*|Ames Housing|General shape of property|
 |**Land Contour**|*Nominal*|Ames Housing|Flatness of the property|
